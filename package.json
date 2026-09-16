@@ -46,7 +46,12 @@
       "category": "public.app-category.finance"
     },
     "win": {
-      "target": "zip"
+      "target": "nsis"
+    },
+    "nsis": {
+      "artifactName": "USFW-Billing-Setup-${version}.${ext}",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
     }
   }
 }
