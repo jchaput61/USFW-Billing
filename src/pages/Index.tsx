@@ -1,8 +1,9 @@
 export default function Index() {
   return (
-    <main>
-      <h1>USFW Billing</h1>
-      <p>The application is ready.</p>
-    </main>
+    <iframe
+      title="USFW Invoicing Master"
+      src={`${import.meta.env.BASE_URL}recovered-invoicing/index.html`}
+      className="recovered-invoice-frame"
+    />
   );
 }

@@ -2,3 +2,12 @@
 node_modules/
 dist/
 release/
+
+# Playwright test artifacts
+/e2e-tests/fixtures/dyad/preview-dns.cjs
+
+# Playwright test artifacts
+/test-results/
+/playwright-report/
+/playwright/.cache/
+.last-run.json
